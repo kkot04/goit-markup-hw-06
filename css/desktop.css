@@ -1,0 +1,64 @@
+@media screen and (min-width: 1168px){
+    .container{
+        max-width: 1158px;
+    }
+
+    .hero-section{
+        padding: 188px 0;
+    }
+
+    .hero-title{
+        line-height: 1.07;
+    }
+
+    /* benefits section */
+    .benefits-section {
+        padding: 120px 0;
+    }
+
+    .benefits-item {
+        width: 264px;
+    }
+
+    .benefit-svg{
+        display: flex;
+    }
+
+    .benefits-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+
+    .doing-section{
+        display: flex;
+        padding-bottom: 120px;
+    }
+
+    .doing-title {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        text-transform: capitalize;
+        letter-spacing: 0.02em;
+        color: var(--dark, #2E2F42);
+        margin-bottom: 72px;
+    
+    }
+    
+    .doing-list {
+        display: flex;
+        gap: 24px;
+    }
+
+
+    /* our team section  */
+.team-section {
+    
+    padding: 120px 0;
+}
+
+
+
+}

@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 736px;
+        
+    }
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+        
+    }
+    .benefits-title{
+        text-align: start;
+    }
+    .benefits-list{
+        display: flex;
+        column-gap : 24px;
+        flex-wrap: wrap;
+    }
+
+    .benefits-item{
+        width: calc((100% - 24px) / 2);
+    }
+
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap : 24px;
+        justify-content: center;
+    }
+
+    .team-item{
+        width: calc((100%-24px) / 2);
+        margin-bottom: 64px;
+    }
+
+
+    
+}
