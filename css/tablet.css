@@ -33,6 +33,16 @@
         width: calc((100%-16px) / 1);
     }
 
-
+    .customer-item {
+        width: calc((100% - 48px) / 3);
+        height: 88px;
+        row-gap: 72px;
+        column-gap: 24px;
+        
+    }
     
+    .customer-svg{
+        width: 104px;
+        height: 56px;
+    }
 }
