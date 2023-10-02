@@ -371,7 +371,8 @@ margin-bottom: 284px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-top: 284px;
-    margin-bottom: 40px;
+    display: block;
+    padding-bottom: 40px;
 }
 
 .mobile-cont-mail{
