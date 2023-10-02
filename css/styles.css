@@ -334,8 +334,7 @@ img {
 }
 
 .mobile-nav-list{
-    margin-top: 80px;
-    margin-left: 40px;
+margin-bottom: 284px;
 }
 
 
@@ -361,7 +360,7 @@ img {
 
 
 
-.mobile-cont-link.tel{
+.mobile-cont-tel{
     color: var(--primary-brand, #4D5AE5);
 
     font-family: Roboto;
@@ -376,7 +375,7 @@ img {
     margin-bottom: 40px;
 }
 
-.mobile-cont-link{
+.mobile-cont-mail{
     color: var(--text, #434455);
     font-family: Roboto;
     font-size: 20px;
