@@ -4,6 +4,45 @@
         
     }
 
+
+    .header-nav {
+        justify-content: space-between;
+    }
+
+    .logo{
+        margin-right: 120px;
+    }
+
+    .header-list {
+        display: flex;
+        gap: 40px;   
+    }
+
+    .header-item:last-child{
+        margin-right: 121px;
+    }
+
+    .address-list {
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+    }
+
+    .address-item {
+        display: flex;
+        
+    }
+
+    .address-link{
+        padding: 0;
+    }
+
+    .header-burger{
+        display: none;
+    }
+
+
+
     .hero-title {
         font-size: 56px;
         line-height: 1.07;
@@ -44,5 +83,46 @@
     .customer-svg{
         width: 104px;
         height: 56px;
+    }
+
+
+
+
+    .footer{
+        text-align: left;
+    }
+
+    .footer-text{
+        width: 264px;
+    }
+    .footer-l-c{
+        display: flex;
+        gap: 24px;
+    }
+
+    .footer-left{
+        margin-left: 93px;
+        align-items: start;
+    }
+
+    .footer-right {
+        margin-left: 93px;
+    }
+
+    .footer-right-text{
+        align-items: start;
+
+    }
+
+    .footer-form {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        align-items: start;
+       
+    }
+
+    .footer-input{
+        width: 264px;
     }
 }
