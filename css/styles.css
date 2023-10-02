@@ -370,7 +370,6 @@ margin-bottom: 284px;
     line-height: 1.11; /* 111.111% */
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
     margin-top: 284px;
     margin-bottom: 40px;
 }
@@ -386,13 +385,32 @@ margin-bottom: 284px;
     margin-bottom: 48px;
 }
 
-
-.mobile-soc-link{
+.mobile-soc-list{
     display: flex;
-    gap: 24px;
-    width: calc((100% - 3 * 56) / 4);
+    justify-content: space-between;
 }
 
+.mobile-soc-item{
+    width: 40px;
+    height: 40px;
+}
+
+
+.mobile-soc-link{
+    
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-soc-svg{
+    fill: #f4f4fd;
+    display: flex;
+}
 
 
 .btn-section {
