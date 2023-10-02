@@ -249,6 +249,7 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 
@@ -300,9 +301,8 @@ img {
     transition: transform 300ms ease-in;
 }
 
-.menu-container.is-open {
+.mobile-header-modal.is-open {
     transform: translateX(0);
-    transition-delay: 150ms;
   }
 
   .mobile-closer-svg{
