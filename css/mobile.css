@@ -43,6 +43,11 @@ body {
     align-items: center;
 }
 
+.header-burger{
+    border: none;
+    background-color: transparent;
+}
+
 .logo {
     color: var(--primary-brand, #4D5AE5);
     font-family: Raleway, sans-serif;
