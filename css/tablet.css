@@ -40,7 +40,11 @@
     .header-burger{
         display: none;
     }
-
+ 
+    .hero-section{
+        max-width: 768px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-bg-tabl.jpg);
+    }
 
 
     .hero-title {
@@ -125,4 +129,11 @@
     .footer-input{
         width: 264px;
     }
+}
+
+@media only screen and (min-width: 768px) and (min-resolution:192dpi ) {
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-bg-tabl@2x.jpg);
+    }
+    
 }
