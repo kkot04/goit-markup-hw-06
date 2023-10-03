@@ -689,7 +689,7 @@ img {
     padding-top: 8px;
     padding-left: 16px;
     padding-bottom: 8px;
-    /* margin-bottom: 16px; */
+    margin-bottom: 16px;
     color: var(--white-background, #FFF);
     font-size: 12px;
     font-weight: 400;
@@ -739,8 +739,25 @@ img {
 
 
 /* modal */
+
+@media screen and (max-width: 420px) {
+  .modal {
+    max-width: 290px;
+    min-height: 480px;
+    padding-top: 54px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .privacy-link {
+    text-align: center;
+  }
+}
+
+
 .modal-section{
     position: fixed;
+    z-index: 99;
     top: 0;
     left: 0;
     width: 100%;
@@ -771,6 +788,7 @@ img {
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
+    
 }
 
 .modal-close-btn{
