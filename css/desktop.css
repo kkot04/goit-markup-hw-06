@@ -1,6 +1,8 @@
 @media screen and (min-width: 1168px){
     .container{
         max-width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
     }
 
     .address-list {
@@ -12,6 +14,11 @@
 
     .address-link{
          padding: 24px 0;
+         font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
 
     .hero-section{
@@ -112,7 +119,10 @@
     font-size: 16px;
    display: block;
    margin-bottom: 0;
-   
+}
+
+.footer-l-c{
+    gap: 0;
 }
 
 .footer-wrapper{
@@ -123,6 +133,7 @@
 .footer-left{
     margin-right: 120px;
     margin-left: 0;
+    padding-left: 0;
 }
 
 .footer-center{
@@ -174,6 +185,7 @@
 
 
 .footer-right {
+    padding-left: 0;
     margin-left: 80px;
 }
 
@@ -237,7 +249,7 @@
 }
 .footer-subscr-svg {
     fill: var(--white-background);
-    margin-left: 16px;
+    
     
 }
 

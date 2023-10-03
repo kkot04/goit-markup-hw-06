@@ -34,11 +34,12 @@
     .address-list {
         display: flex;
         flex-direction: column;
+        gap: 12px;
     }
 
     .address-item {
         display: flex;
-        gap: 12px;
+        
 
     }
 
@@ -50,6 +51,8 @@
         font-weight: 400;
         line-height: 1.17; /* 116.667% */
         letter-spacing: 0.04em;
+        display: flex;
+    column-gap: 16px;
     }
 
     .header-burger{
@@ -148,7 +151,7 @@
         align-items: start;
     }
     .footer-center{
-        padding-bottom: 0;
+        margin-bottom: 0;
         }
 
     .footer-right {
@@ -170,7 +173,6 @@
 
     .footer-input{
         width: 264px;
-        padding-bottom: 0;
         margin-bottom: 0;
     }
 }
